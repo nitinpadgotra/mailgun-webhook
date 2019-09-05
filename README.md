@@ -9,3 +9,5 @@ It is mailgun webhook sample for handling the mailgun events sent to webhook via
 5. Add your mail gun api key to config variable
 6. npm run local
 7. Application will by default run on localhost:3000
+8. https://localhost:3000/api/v1/webhook (POST) for adding records to database will be used as webhook to mailgun
+9. https://localhost:3000/api/v1/webhook (GET) for fetching records from database
